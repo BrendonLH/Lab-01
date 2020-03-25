@@ -1,20 +1,54 @@
+@import '/css/reset.css';
+@import '/css/base.css';
+@import '/css/layout.css';
+@import '/css/module.css';
+@import '/css/theme.css';
 
+body {
+    max-height: 767;
+}
+ * {
+    box-sizing: border-box;
+    max-width: 480px;
+    
+    
+}
+
+header {
+    border: 1px solid gray;
+    height: 75px;
+    background-color: lightgray;
+}
+aside {
+    border: 1px solid gray;
+    height: 150px;
+    background-color: lightgray;
+}
 div {
     border: 1px solid gray;
-    text-align: center;
     background-color: lightgray;
-    
-    
 }
-#a {
-    height: 75px;
-}
-#b {
-    height: 150px;
-}
-#c {
+
+.cd {
     height: 125px;
 }
-#d {
-    height: 125px;
+.efgh {
+    width: 240px;
+    float: left;
+    height: 250px;
 }
+footer {
+    border: 1px solid gray;
+    height: 80px;
+    clear: both;
+    background-color: lightgray;
+}
+p {
+    
+}
+
+
+
+
+
+
