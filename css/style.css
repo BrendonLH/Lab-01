@@ -52,6 +52,7 @@ footer {
     header {
         width: 960px;
         background-color: pink;
+        height: 100px;
     }
     aside {
         float: left;
