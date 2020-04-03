@@ -74,5 +74,8 @@ footer {
         height: 150px;
         width: 760px;
         background-color: lightblue;
-    }
+        position: relative;
+        bottom: 150px;
+        clear: both;
+        float: right;    }
 }
