@@ -51,23 +51,28 @@ footer {
     }
     header {
         width: 960px;
+        background-color: pink;
     }
     aside {
         float: left;
         width:200px;
         height: 600px; 
+        background-color: red;
     }
     .efgh{
         width: 190px;
         height: 250px;
+        background-color: greenyellow;
     }
     .cd {
         width: 380px;
         height: 200px;
         float: left;
+        background-color: khaki;
     }
     footer {
         height: 150px;
         width: 760px;
+        background-color: lightblue;
     }
 }
