@@ -1,0 +1,82 @@
+@import '/css/reset.css';
+@import '/css/base.css';
+@import '/css/layout.css';
+@import '/css/module.css';
+@import '/css/theme.css';
+
+body {
+    max-height: 767;
+}
+ * {
+    box-sizing: border-box;
+    /* max-width: 480px; */
+    
+    
+}
+
+header {
+    border: 1px solid gray;
+    height: 75px;
+    background-color: lightgray;
+}
+aside {
+    border: 1px solid gray;
+    height: 150px;
+    background-color: lightgray;
+}
+div {
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+
+.cd {
+    height: 125px;
+}
+.efgh {
+    width: 240px;
+    float: left;
+    height: 250px;
+}
+footer {
+    border: 1px solid gray;
+    height: 80px;
+    clear: both;
+    background-color: lightgray;
+}
+
+@media(min-width:960px) {
+
+    body {
+        max-height: 960px;
+    }
+    header {
+        width: 960px;
+        background-color: pink;
+        height: 100px;
+    }
+    aside {
+        float: left;
+        width:200px;
+        height: 600px; 
+        background-color: red;
+    }
+    .efgh{
+        width: 190px;
+        height: 250px;
+        background-color: greenyellow;
+    }
+    .cd {
+        width: 380px;
+        height: 200px;
+        float: left;
+        background-color: khaki;
+    }
+    footer {
+        height: 150px;
+        width: 760px;
+        background-color: lightblue;
+        position: relative;
+        bottom: 150px;
+        clear: both;
+        float: right;    }
+}
